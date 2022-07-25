@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-drag-to-select
+ */
+export * from './lib/drag-to-select.module';
+export * from './lib/select-container.component';
+export * from './lib/select-item.directive';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1kcmFnLXRvLXNlbGVjdC9zcmMvcHVibGljX2FwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsNkJBQTZCLENBQUM7QUFDNUMsY0FBYyxrQ0FBa0MsQ0FBQztBQUNqRCxjQUFjLDZCQUE2QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtZHJhZy10by1zZWxlY3RcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9kcmFnLXRvLXNlbGVjdC5tb2R1bGUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvc2VsZWN0LWNvbnRhaW5lci5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvc2VsZWN0LWl0ZW0uZGlyZWN0aXZlJztcbiJdfQ==

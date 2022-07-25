@@ -1,0 +1,11 @@
+export const DEFAULT_CONFIG = {
+    selectedClass: 'selected',
+    shortcuts: {
+        moveRangeStart: 'shift+r',
+        disableSelection: 'alt',
+        toggleSingleItem: 'meta',
+        addToSelection: 'shift',
+        removeFromSelection: 'shift+meta',
+    },
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZmlnLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vcHJvamVjdHMvbmd4LWRyYWctdG8tc2VsZWN0L3NyYy9saWIvY29uZmlnLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBLE1BQU0sQ0FBQyxNQUFNLGNBQWMsR0FBdUI7SUFDaEQsYUFBYSxFQUFFLFVBQVU7SUFDekIsU0FBUyxFQUFFO1FBQ1QsY0FBYyxFQUFFLFNBQVM7UUFDekIsZ0JBQWdCLEVBQUUsS0FBSztRQUN2QixnQkFBZ0IsRUFBRSxNQUFNO1FBQ3hCLGNBQWMsRUFBRSxPQUFPO1FBQ3ZCLG1CQUFtQixFQUFFLFlBQVk7S0FDbEM7Q0FDRixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRHJhZ1RvU2VsZWN0Q29uZmlnIH0gZnJvbSAnLi9tb2RlbHMnO1xuXG5leHBvcnQgY29uc3QgREVGQVVMVF9DT05GSUc6IERyYWdUb1NlbGVjdENvbmZpZyA9IHtcbiAgc2VsZWN0ZWRDbGFzczogJ3NlbGVjdGVkJyxcbiAgc2hvcnRjdXRzOiB7XG4gICAgbW92ZVJhbmdlU3RhcnQ6ICdzaGlmdCtyJyxcbiAgICBkaXNhYmxlU2VsZWN0aW9uOiAnYWx0JyxcbiAgICB0b2dnbGVTaW5nbGVJdGVtOiAnbWV0YScsXG4gICAgYWRkVG9TZWxlY3Rpb246ICdzaGlmdCcsXG4gICAgcmVtb3ZlRnJvbVNlbGVjdGlvbjogJ3NoaWZ0K21ldGEnLFxuICB9LFxufTtcbiJdfQ==

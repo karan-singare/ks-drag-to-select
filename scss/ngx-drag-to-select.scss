@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'mixins';
+
+.dts-no-select {
+  user-select: none;
+}
+
+.dts-select-box {
+  @include styleSelectBox($select-box-color);
+
+  contain: layout;
+  transform: translateZ(0);
+  box-sizing: border-box;
+  color: $select-box-color;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+
+  &.dts-removing {
+    @include styleSelectBox($select-box-removing-color, $select-box-removing-color);
+  }
+}
+
+.dts-select-container:not(.dts-custom) {
+  .dts-select-item.selected {
+    @if $selected-item-border {
+      border: $selected-item-border-size solid $selected-item-border-color;
+    }
+
+    @if $box-shadow {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .dts-select-item.dts-range-start {
+    @if $range-start-border {
+      border: 1px solid $range-start-border-color;
+    }
+  }
+}
